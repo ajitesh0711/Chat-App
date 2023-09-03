@@ -1,0 +1,46 @@
+
+
+.iemoji{
+  height: 30px;
+  width: 30px;
+  
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color:rgb(129, 123, 123);
+  text-decoration:none;
+
+}
+.iemoji:hover{
+  color:rgb(29, 29, 236);
+  
+}
+@keyframes emojiopen {
+  from{
+    opacity: 0;
+    
+  }
+  to{
+   opacity: 1;
+  }
+  
+}
+.animateemoji{
+  opacity: 1;
+
+
+  animation: emojiopen 1s cubic-bezier(0.23, 1, 0.320, 1) 0s;
+}
+/* .message {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    animation: slide-in 0.3s ease;
+  }
+  
+  .message:last-child {
+    animation: slide-in-last 0.3s ease;
+  }
+   */
